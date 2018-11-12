@@ -1,0 +1,792 @@
+@font-face {font-family:'VAG Rounded W01 Bold';src:url('../../../monkey/font/vagrounded-bold-webfont.eot');src:url('../../../monkey/font/vagrounded-bold-webfont-0.eot#iefix') format('embedded-opentype'),url('../../../monkey/font/vagrounded-bold-webfont.woff') format('woff'),url('../../../monkey/font/vagrounded-bold-webfont.ttf') format('truetype'),url('../../../monkey/font/vagrounded-bold-webfont.svg#VAGRoundedBold') format('svg');font-weight:normal;font-style:normal;}
+@font-face {font-family:'VAG Rounded W01 Thin';src:url('../../../monkey/font/vagrounded-thin-webfont.eot');src:url('../../../monkey/font/vagrounded-thin-webfont-0.eot#iefix') format('embedded-opentype'),url('../../../monkey/font/vagrounded-thin-webfont.woff') format('woff'),url('../../../monkey/font/vagrounded-thin-webfont.ttf') format('truetype'),url('../../../monkey/font/vagrounded-thin-webfont.svg#VAGRoundedThin') format('svg');font-weight:normal;font-style:normal;}
+@font-face {font-family:'VAG Rounded W01 Light';src:url('../../../monkey/font/vagrounded-light-webfont.eot');src:url('../../../monkey/font/vagrounded-light-webfont-0.eot#iefix') format('embedded-opentype'),url('../../../monkey/font/vagrounded-light-webfont.woff') format('woff'),url('../../../monkey/font/vagrounded-light-webfont.ttf') format('truetype'),url('../../../monkey/font/vagrounded-light-webfont.svg#VAGRoundedLight') format('svg');font-weight:normal;font-style:normal;}
+
+
+
+
+.legacy-content {
+	background-color: #fff;
+	width: 980px;
+
+	color: #444;
+	background-color:#fff;
+	-moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius:10px;
+	min-height: 300px;
+	margin: 30px 0 30px 0;
+
+	font-size: 14px;
+
+	font-family: Tahoma;
+
+}
+
+#facebox .popup table {
+	background-color: transparent;
+	border: 0;
+}
+
+
+.legacy-content ::selection {
+	background: #bbb; /* Safari */
+}
+
+.legacy-content ::-moz-selection {
+	background: #bbb; /* Firefox */
+}
+
+.legacy-content input {
+	display: inline;
+	width: auto;
+}
+
+#home {margin-bottom: 0;}
+
+#home #signs .sign .board {
+	background: #fff !important;
+}
+
+
+
+
+/* Legacy code */
+
+.legacy-content  h1,.roundbox h1 {
+  color:#442B14;
+  margin:0 0 10px 0;
+  font-size:18px;
+	font-weight: normal;
+}
+
+.legacy-content h2,.roundbox h2 {
+  color:#442B14;
+  margin:0 0 10px 0;
+  font-size:14px;
+}
+
+.brown {
+  color:#402a14 !important;
+}
+
+.boxpadding {
+  padding: 54px;
+}
+
+
+.clearboth {
+	clear:both;
+	height:0;
+}
+
+/* 2 col layout */
+.twocolumns {
+  width:980px;
+  line-height:1.6em;
+}
+
+.twocolumns .col1,.twocolumns .col2 {
+  background-color:#FFF;
+  width:480px;
+  float: left;
+  margin-right:20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius:10px;
+}
+
+.twocolumns .col2 {
+  width:480px;
+  margin-right:0;
+}
+
+.twocolumns .col4 {
+  margin-right:0;
+}
+
+.twocolumns .boxpadding {
+  padding: 12px;
+}
+
+.twocolumns h1 {
+  color:#daae27;
+  margin:0;
+  font-size:22px;
+  font-weight:normal;
+  font-family:'VAGRoundedBold';
+}
+
+.twocolumns .col1 p {
+  margin: 8px 0 0 0;
+}
+
+.onecolumn {
+  background-color:#FFF;
+  width:980px;
+  margin-right:20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius:10px;
+  text-align:left;
+  color:#444;
+  font-family:Tahoma, Verdana;
+}
+
+.onecolumn .boxpadding {
+  padding: 54px;
+}
+
+
+.onecolumn h1,.roundbox h1 {
+  color:#442B14;
+  margin:0 0 10px 0;
+  font-size:18px;
+}
+
+.onecolumn h2,.roundbox h2 {
+  color:#442B14;
+  margin:0 0 10px 0;
+  font-size:14px;
+}
+
+
+
+.roundbox {
+  background-color:#FFF;
+  width:980px;
+  margin-right:0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius:10px;
+  text-align:left;
+  color:#444;
+  font-family:Tahoma, Verdana;
+}
+
+#facebox {
+  color:#442B14;
+}
+
+.inputradius {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius:5px;
+}
+
+
+input.dummyinput.off {
+  color:#888;
+}
+
+
+.expander {
+  display: none;
+}
+
+.heading {
+  color:#daae27;
+  margin:0;
+  font-size:22px;
+  font-weight:normal;
+  font-family: "VAG Rounded W01 Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.heading.blue {
+  color:#50547e;
+}
+
+
+
+
+
+table.formatted,table.formatted2 {
+  border:solid 1px #412B15;
+}
+
+table.formatted td,table.formatted  th,table.formatted2 td,table.formatted2  th {
+  padding:6px;
+  border-bottom:solid 1px #DDD;
+}
+
+table.formatted th,table.formatted2 th {
+  text-align:left;
+  background-color:#412B15;
+  color:#FFF;
+  font-weight:bold;
+}
+
+#page .button, #page a.button {
+  background-color:#e8c800;
+  border:0;
+  color:#412B15;
+  border: solid 1px #412B15;
+  font-weight:bold;
+  padding:5px;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:11px;
+}
+
+
+
+
+table.formatted_input {
+
+}
+
+table.formatted_input td,table.formatted_input  th {
+  padding:6px;
+}
+
+table.formatted_input th {
+  text-align:left;
+  color:#412B15;
+  font-weight:bold;
+}
+
+
+/* forms */
+
+form input.textinput {
+  border:solid 1px #ddd;
+  padding:4px;
+  width:250px;
+}
+
+form select.selectinput {
+  border:solid 1px #DDD;
+  padding:4px;
+  width:260px;
+}
+
+form textarea.textareainput {
+  width:250px;
+  border:solid 1px #DDD;
+  font-size:11px;
+  font-family:Arial,Helvetica;
+  padding:4px;
+}
+
+.padd-content .form {
+ border-radius: 5px !important;
+}
+
+.error {
+  color:#FF0000;
+  font-weight:bold;
+}
+
+.rq {
+  color:#FF0000 !important;
+}
+
+
+.content-box {
+  border:solid 1px #362516;
+  border-top:0;
+  padding:20px;
+  color:#444;
+}
+
+.content-box-header {
+  height:30px;
+  background-image:url('images/tableheader.jpg');
+  background-repeat:no-repeat;
+  font-size:15px;
+  font-weight:bold;
+  color:#FFF;
+  padding: 14px 0 0 20px;
+}
+
+.content-box-header .small {
+  font-size:10px;
+  font-weight:normal;
+  float:right;
+  position:relative;
+  right:20px;
+}
+
+
+
+table.listformat {
+  border-collapse: collapse;
+}
+
+table.listformat td, table.listformat th {
+  padding:8px 0 4px 8px;
+  border-bottom:solid 1px #DDD;
+}
+
+table.listformat th {
+
+  color:#000;
+  font-weight:bold;
+  text-align:left;
+  font-size:1.2em;
+  border-bottom:solid 2px #bbb;
+  padding-bottom:8px;
+  padding-top:0;
+
+}
+
+
+table.listformat tr.odd td {
+  background-color:#feffe7;
+}
+
+
+.h1caption {
+  position:relative;
+  bottom:7px;
+  font-size:0.9em;
+  color:#777;
+  margin-bottom:15px;
+}
+
+.flags {
+  cursor: pointer;
+}
+
+
+.bigform .textinput {
+  border: solid 1px #DDD;
+  background-color: #F1F1F1;
+  font-family:Tahoma, Verdana, Helvetica, Arial;
+  font-size:16px;
+  color:#555;
+}
+
+
+#pagedbox_nav {
+  position: absolute;
+  top:10px;
+  right:15px;
+  font-size:24px;
+  z-index:100;
+}
+
+#pagedbox_nav a {
+  color:#888;
+}
+
+#pagedbox_nav a.activeSlide {
+  color:#daae27;
+}
+
+
+
+/* New version */
+
+#home #sky h1 {
+	text-align: center;
+}
+
+#reviews {
+	padding: 10px !important;
+	margin-bottom: 10px;
+	margin-top: 3px !important;
+}
+
+#home #sky #reviews .star.half {
+	margin-left: 4px;
+}
+
+#home #sky #reviews .review-wrapper {
+	width: auto;
+	float: left;
+}
+
+#home #sky #reviews .comment {
+	float: left;
+	margin-left: 15px;
+}
+
+#home #sky #reviews .ekomi {
+	position: absolute;
+	right: -4px;
+	top: 0px;
+}
+
+#home #sky #reviews .more {
+	float: right;
+	margin-right: 40px;
+}
+
+#home #sky #reviews .more strong {
+	color: #fff;
+}
+
+#home #sky #partners {
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
+
+#home #sky #play {
+	margin-top: 5px;
+}
+
+#home #sky #send-choices .click-an-option {
+	color: #E9FF0D;
+}
+
+#home .send-modal {
+	top: 203px !important;
+}
+
+
+#sky {
+	 background-color: #00b1d7 !important;
+
+	background-position: center -140px !important;
+
+}
+
+/*
+#sky.homepage-sky {
+	background-image: url('../images/xmas-background.png') !important;
+}
+*/
+
+#sky.night {
+	background-color: #34074a !important;
+}
+
+#about #sky .box-out #play {
+	padding: 17px 0.84em 14px 40px;
+}
+
+header {
+	z-index: 199;
+}
+
+/* new version end */
+
+.price-expander {
+  border: solid 1px #DDD;
+  border-bottom:0;
+}
+
+.price-expander div {
+  border-bottom: solid 1px #DDD;
+  padding:7px;
+}
+
+.price-expander-more {
+  background-color:#F1F1F1;
+  font-weight:bold;
+  padding:7px;
+  text-align:center;
+  border:solid 1px #DDD;
+  border-top:0;
+  cursor:pointer;
+}
+
+.button.secondary, input[type="submit"].secondary, button.secondary {
+    background: #ff4560;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNDU2MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2NjMzk0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjQ1NjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #ff4560 0%, #de0020 50%, #ff4560 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff4560), color-stop(50%, #de0020), color-stop(100%, #ff4560));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ff4560 0%, #de0020 50%, #ff4560 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ff4560 0%, #de0020 50%, #ff4560 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ff4560 0%, #de0020 50%, #ff4560 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ff4560 0%, #de0020 50%, #ff4560 100%);
+    /* W3C */
+    background-position: top;
+    -moz-background-size: 200% 200%;
+    background-size: 200% 200%;
+    border: 2px solid #ff4560;
+    color: white;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4560', endColorstr='#ff4560', GradientType=0);
+    /* IE6-8 */
+}
+
+#home .send-modal .form form .box-out.right input[type="submit"] {
+    background: #00bf45;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    filter: none;
+    float: right;
+    font-size: 1em;
+    height: 29px;
+    line-height: 27px;
+    padding: 0 10px;
+    text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+}
+
+.service-layout .instant-quote .form form .box-out-quote.right input[type="submit"] {
+    background: #00bf45;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    filter: none;
+    float: right;
+    font-size: 1em;
+    height: 29px;
+    line-height: 27px;
+    padding: 0 10px;
+    text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+}
+
+.service-layout .instant-quote .form form .box-out-quote.right input[type="submit"]:hover {
+    background: #009e39;
+}
+
+.service-layout .service-delivery-banner a {
+    border: 2px solid white;
+    background: #00bf45;
+    color: white;
+    padding: 10px;
+    letter-spacing: 0.15em;
+}
+
+.service-layout .service-delivery-banner a:hover {
+    background: #009e39;
+}
+
+.service-layout .instant-quote .form form input[type="submit"] {
+    background: #00bf45;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    filter: none;
+    float: right;
+    font-size: 1em;
+    height: 29px;
+    line-height: 27px;
+    padding: 0 10px;
+    text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+}
+
+.service-layout .instant-quote .form form input[type="submit"]:hover {
+    background: #009e39;
+}
+
+/* Sameday Quote Page - Step 1 */
+
+#instruction {
+  background: #fefff0;
+  color: #333;
+  margin-bottom: 1em;
+  padding: 0.9375em;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+#instruction span {
+  color: #000;
+
+}
+
+.price .minus-vat {
+  display: block;
+  font-family: "VAG Rounded W01 Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15%;
+  margin-bottom: 0.5em;
+
+}
+
+.price .plus-vat {
+  display: block;
+  font-family: "VAG Rounded W01 Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  margin-bottom: 0.5em;
+
+}
+
+.book-now, .book-now:hover {
+  background: #00bf45;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  filter: none;
+  margin-top: 15%;
+  float: right;
+  font-size: 1em;
+  height: 29px;
+  line-height: 26px;
+  padding: 0 10px;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  width: auto;
+
+}
+
+
+#partners {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: block;
+  margin-top: 0px;
+  padding: 10px 15px;
+  width: 100%;
+
+}
+
+#home #sky #partners {
+  margin-top: 0;
+  width: 100%;
+
+}
+
+#facebk {
+  border-radius: 5px;
+  display: block;
+  margin-top: 11px;
+  padding: 12px 15px 2px;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#facebk {
+  float: left;
+  width: auto;
+  margin-top: 3px !important;
+  min-height: 85px;
+
+}
+
+#facebk p {
+  margin: 0;
+
+}
+
+#facebk a {
+  font-size: 0.75em;
+
+}
+
+/* styling for Uploaded Shipment Quote Module 'Add to Cart' button */
+a.send  {
+  background: #00bf45;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  filter: none;
+  font-size: 1em;
+  height: 29px;
+  line-height: 27px;
+  padding: 0 10px;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.2);
+  width: auto;
+  font-family: "VAG Rounded W01 Bold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+
+}
+
+a.send:hover {
+  background-position: bottom;
+  color: #fff;
+
+}
+
+/*
+header .top-bar-section .nav-wrapper #services-dropdown > li {
+  height: 330px;
+}
+*/
+
+
+.trustpilot-widget {
+  text-align: left;
+  width: 100%;
+  padding: 80px 100px 60px 0;
+}
+.trustpilot-widget .rating-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.trustpilot-widget .rating-group img {
+    max-width: 24px;
+}
+.trustpilot-widget #logo {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.trustpilot-widget #logo img {
+    max-width: 175px;
+}
+.trustpilot-widget p {
+    font-size: 19px;
+    color: #3A0256;
+    line-height: 1.5;
+}
+.trustpilot-widget p.read-more__reviews {
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+}
+.trustpilot-widget p.read-more__reviews a#pm_reviews {
+    color: #3A0256;
+    text-decoration: underline;
+}
+.trustpilot-widget p.read-more__reviews a#pm_reviews:hover {
+    text-decoration: none;
+}
+
+.trustpilot-widget p.read-more__reviews a#trustpilot_reviews {
+    color: #929497;
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+}
+.trustpilot-widget p.read-more__reviews a#trustpilot_reviews:hover {
+    text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    .trustpilot-widget {
+        text-align: center;
+        padding: 30px 30px 20px 30px;
+    }
+    .trustpilot-widget p {
+        font-size: 14px;
+    }
+    .trustpilot-widget p.read-more__reviews a#trustpilot_reviews {
+        position: relative;
+        display: block;
+        margin-top: 10px;
+    }
+    .trustpilot-widget hr {
+        display: inherit !important;
+        max-width: 50%;
+        margin: 30px auto 0 auto;
+        border-width: 2px 0 0;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .trustpilot-widget {
+        padding: 60px 60px 40px 35px;
+    }
+    .trustpilot-widget p {
+        font-size: 16px;
+    }
+}
+
+/* Localized */

@@ -1,0 +1,386 @@
+/* Available Variables */
+@media only screen {
+    .lt-ie9 header {
+        z-index: 1000;
+    }
+    .lt-ie9 section#home2014 {
+        position: inherit;
+    }
+  /* line 27, iefix.scss */
+  .lt-ie9 header .top-bar .title-area .name a {
+    background-image: url("../images/header-logo-mobile@1x.png");
+  }
+  /* line 39, iefix.scss */
+  .lt-ie9 header .top-bar-section .nav-wrapper ul.main li.home a {
+    background-image: url("../images/header-home-mobile@1x.png");
+  }
+  /* line 50, iefix.scss */
+  .lt-ie9 header .top-bar-section ul li .basket .icon {
+    background-image: url("../images/header-basket-mobile@1x.png");
+  }
+  /* line 59, iefix.scss */
+  .lt-ie9 header .top-bar-section .dropdown li.domestic-parcels .icon {
+    background-image: url("../images/header-services-icon-domestic-parcels@1x.png");
+  }
+  /* line 64, iefix.scss */
+  .lt-ie9 header .top-bar-section .dropdown li.international-parcels .icon {
+    background-image: url("../images/header-services-icon-international-parcels@1x.png");
+  }
+  /* line 69, iefix.scss */
+  .lt-ie9 header .top-bar-section .dropdown li.specialist-services .icon {
+    background-image: url("../images/header-services-icon-specialist-services@1x.png");
+  }
+  /* line 77, iefix.scss */
+  .lt-ie9 header .top-bar-section .powered-by-alight a .icon {
+    background-image: url("../images/header-alight-mobile@1x.png");
+  }
+  /* line 81, iefix.scss */
+  .lt-ie9 header .top-bar-section .powered-by-alight .popover-wrapper {
+    display: none;
+  }
+  /* line 84, iefix.scss */
+  .lt-ie9 header .top-bar-section .powered-by-alight .popover-wrapper .popover:before {
+    display: none;
+  }
+  /* line 91, iefix.scss */
+  .lt-ie9 header .top-bar-section .has-dropdown > a:after {
+    display: none;
+  }
+  .lt-ie9 header .top-bar-section .nav-wrapper ul.main li a {
+    display: block;
+  }
+  .lt-ie9 header .top-bar-section .nav-wrapper #services-dropdown > li {
+      height: 350px;
+  }
+  .lt-ie9 header .top-bar-section .has-dropdown ul li a {
+        background: white;
+  }
+  /* line 99, iefix.scss */
+  .lt-ie9 #sky #send-choices ul {
+    border-top: none;
+  }
+  /* line 101, iefix.scss */
+  .lt-ie9 #sky #send-choices ul:before {
+    background: url("../images/semi-transparent-white.png");
+    display: block;
+    height: 15px;
+    width: 100%;
+  }
+  /* line 109, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .box {
+    background-image: url("../images/send-choices-box-large@1x.png") !important;
+  }
+  /* line 111, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .box.small {
+    background-image: url("../images/send-choices-box-small@1x.png") !important;
+  }
+  /* line 114, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .box.pallet {
+    background-image: url("../images/send-choices-box-pallet@1x.png") !important;
+  }
+  /* line 118, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .box .icon.clock {
+    background-image: url("../images/send-choices-box-icon-clock@1x.png") !important;
+  }
+  /* line 121, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .box .icon.plane {
+    background-image: url("../images/send-choices-box-icon-plane@1x.png") !important;
+  }
+  /* line 126, iefix.scss */
+  .lt-ie9 #sky #send-choices .box-wrapper .shadow {
+    background-image: url("../images/send-choices-box-shadow@1x.png") !important;
+  }
+  /* line 132, iefix.scss */
+  .lt-ie9 #sky #play .icon {
+    background-image: url("../images/watch-button-icon@1x.png") !important;
+  }
+  /* line 137, iefix.scss */
+  .lt-ie9 #sky #scene #top-grass {
+    background-image: url("../images/top-grass-mobile@1x.png");
+  }
+  /* line 141, iefix.scss */
+  .lt-ie9 #sky #scene #van #shadow {
+    background-image: url("../images/van-shadow-mobile@1x.png") !important;
+  }
+  /* line 144, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis {
+    background-image: url("../images/van-chassis-mobile@1x.png") !important;
+  }
+  /* line 146, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis #head {
+    background-image: url("../images/van-monkey-head-mobile@1x.png") !important;
+  }
+  /* line 149, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis h2 {
+    z-index: 1 !important;
+  }
+  /* line 152, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis .available-now {
+    background-color: transparent !important;
+    background-image: url("../images/van-available-now-mobile@1x.png") !important;
+    background-repeat: no-repeat;
+    text-indent: -9999px !important;
+    z-index: 0 !important;
+  }
+  /* line 160, iefix.scss */
+  .lt-ie9 #sky #scene #van .wheel {
+    background-image: url("../images/van-wheel-mobile@1x.png") !important;
+  }
+  /* line 163, iefix.scss */
+  .lt-ie9 #sky #scene #van #dx-group {
+    background-image: url("../images/dx-group-mobile@1x.png") !important;
+  }
+  /* line 168, iefix.scss */
+  .lt-ie9 #sky #grid {
+    background: url("../images/semi-transparent-white.png");
+  }
+  /* line 171, iefix.scss */
+  .lt-ie9 #sky #grid li .equal-heights {
+    min-height: 166px;
+  }
+  /* line 173, iefix.scss */
+  .lt-ie9 #sky #grid li .equal-heights .button {
+    display: block;
+  }
+  /* line 181, iefix.scss */
+  .lt-ie9 #sky #signs .sign .shadow {
+    display: none !important;
+  }
+  /* line 187, iefix.scss */
+  .lt-ie9 #sky #customer-award .star {
+    background-image: url("../images/star-rating-sprite@1x.png") !important;
+  }
+  /* line 196, iefix.scss */
+  .lt-ie9 #sky footer #footer-area ul li a.home {
+    background-image: url("../images/header-home-desktop@1x.png");
+  }
+  /* line 204, iefix.scss */
+  .lt-ie9 #sky footer #footer-area .powered-by-alight a .icon {
+    background-image: url("../images/header-alight-mobile@1x.png");
+  }
+  /* line 214, iefix.scss */
+  .lt-ie9 #sky .service-layout .delivery-services .box-out .icon {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2em;
+  }
+  /* line 218, iefix.scss */
+  .lt-ie9 #sky .service-layout .delivery-services .box-out .icon.book-online {
+    background: url("../images/icon-book-online-ie.png");
+    height: 72px;
+    width: 72px;
+    background-size: 72px 72px;
+  }
+  /* line 224, iefix.scss */
+  .lt-ie9 #sky .service-layout .delivery-services .box-out .icon.collection {
+    background: url("../images/icon-collection-ie.png");
+    height: 72px;
+    width: 60px;
+    background-size: 60px 72px;
+  }
+  /* line 230, iefix.scss */
+  .lt-ie9 #sky .service-layout .delivery-services .box-out .icon.track-goods {
+    background: url("../images/icon-track-goods-ie.png");
+    height: 72px;
+    width: 53px;
+    background-size: 53px 72px;
+  }
+  /* line 236, iefix.scss */
+  .lt-ie9 #sky .service-layout .delivery-services .box-out .icon.coverage {
+    background: url("../images/icon-coverage-ie.png");
+    height: 72px;
+    width: 61px;
+    background-size: 61px 72px;
+  }
+  /* line 248, iefix.scss */
+  .lt-ie9 #sky .box-out.bullet-item ul li {
+    background: url("../images/list-tick-mobile@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 254, iefix.scss */
+  .lt-ie9 #sky .star-wrapper .star {
+    background: url("../images/star-rating-sprite@1x.png") no-repeat 0 -30px !important;
+  }
+  /* line 261, iefix.scss */
+  .lt-ie9 #grass ul li {
+    background: url("../images/list-tick-mobile@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 269, iefix.scss */
+  .lt-ie9 #progress .step.complete .number {
+    background: url("../images/send-a-parcel-progress-tick@1x.png") no-repeat center center !important;
+  }
+  /* line 273, iefix.scss */
+  .lt-ie9 #progress .step:after {
+    border-color: transparent transparent transparent transparent;
+  }
+  /* line 276, iefix.scss */
+  .lt-ie9 #progress .step.current:after {
+    border-color: transparent transparent transparent #00bf45;
+    border-width: 40px 0 40px 15px;
+  }
+  /* line 283, iefix.scss */
+  .lt-ie9 #same-day .box-out .small-van {
+    background: url("../images/same-day-van-small@1x.png") no-repeat 0 bottom !important;
+  }
+  /* line 286, iefix.scss */
+  .lt-ie9 #same-day .box-out .medium-van {
+    background: url("../../../../assets/images/same-day-van-medium@1x.png") no-repeat 0 bottom !important;
+  }
+  /* line 289, iefix.scss */
+  .lt-ie9 #same-day .box-out .large-van {
+    background: url("../images/same-day-van-large@1x.png") no-repeat 0 bottom !important;
+  }
+  /* line 296, iefix.scss */
+  .lt-ie9 .parcel-boxes .parcel-box .copy-parcel-box {
+    background: url("../images/icon-clone@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 299, iefix.scss */
+  .lt-ie9 .parcel-boxes .parcel-box .remove-parcel-box {
+    background: url("../images/icon-delete@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 307, iefix.scss */
+  .lt-ie9 #help ul li .clone {
+    background: url("../images/icon-clone@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 314, iefix.scss */
+  .lt-ie9 .help .printer {
+    background: url("../images/icon-printer-not-required@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 317, iefix.scss */
+  .lt-ie9 .help .printer.required {
+    background: url("../images/icon-printer-required@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 323, iefix.scss */
+  .lt-ie9 .courier .info {
+    background: url("../images/icon-info@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 326, iefix.scss */
+  .lt-ie9 .courier .printer {
+    background: url("../images/icon-printer-not-required@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 329, iefix.scss */
+  .lt-ie9 .courier .printer.required {
+    background: url("../images/icon-printer-required@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 335, iefix.scss */
+  .lt-ie9 #collection-address-form .info {
+    background: url("../images/icon-info@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 340, iefix.scss */
+  .lt-ie9 #delivery-address-form .info {
+    background: url("../images/icon-info@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 347, iefix.scss */
+  .lt-ie9 #additional-details #important .row .important-icon {
+    background: url("../images/icon-important@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 358, iefix.scss */
+  .lt-ie9 footer #footer-area ul li a.home {
+    background: url("../images/header-home-desktop@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 370, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #video-post-screen .button.secondary .icon {
+    background: url("../images/video-post-play-icon@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 375, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #video-post-screen .video-by-alight a {
+    background: url("../images/semi-transparent-white.png") !important;
+  }
+  /* line 377, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #video-post-screen .video-by-alight a .icon {
+    background: url("../images/header-alight-mobile@1x.png") no-repeat center center !important;
+  }
+  /* line 386, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.alight {
+    background: url("../images/video-post-logo-alight-small@1x.png") no-repeat 0 center !important;
+  }
+  /* line 389, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.cloud-fulfilment {
+    background: url("../images/video-post-logo-cloud-fulfilment-small@1x.png") no-repeat 0 center !important;
+  }
+  /* line 392, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.kong {
+    background: url("../images/video-post-logo-kong-small@1x.png") no-repeat 0 center !important;
+  }
+  /* line 398, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .video-by-alight a {
+    background: url("../images/semi-transparent-white.png") !important;
+  }
+  /* line 400, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .video-by-alight a .icon {
+    background: url("../images/header-alight-mobile@1x.png") no-repeat center center !important;
+  }
+}
+@media only screen and (min-width: 48em) {
+  /* line 418, iefix.scss */
+  .lt-ie9 #sky #scene #van #shadow {
+    background-image: url("../images/van-shadow-desktop@1x.png") !important;
+  }
+  /* line 421, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis {
+    background-image: url("../images/van-chassis-desktop@1x.png") !important;
+  }
+  /* line 423, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis #head {
+    background-image: url("../images/van-monkey-head-desktop@1x.png") !important;
+  }
+  /* line 426, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis h2 {
+    z-index: 1 !important;
+  }
+  /* line 429, iefix.scss */
+  .lt-ie9 #sky #scene #van #chassis .available-now {
+    background-color: transparent !important;
+    background-image: url("../images/van-available-now-desktop@1x.png") !important;
+    background-repeat: no-repeat;
+    text-indent: -9999px !important;
+    z-index: 0 !important;
+  }
+  /* line 437, iefix.scss */
+  .lt-ie9 #sky #scene #van .wheel {
+    background-image: url("../images/van-wheel-desktop@1x.png") !important;
+  }
+  /* line 440, iefix.scss */
+  .lt-ie9 #sky #scene #van #dx-group {
+    background-image: url("../images/dx-group-desktop@1x.png") !important;
+  }
+  /* line 450, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #video-post-screen .head {
+    background: url("../images/video-post-head-small@1x.png") no-repeat 0 0 !important;
+  }
+  /* line 457, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.alight {
+    background: url("../images/video-post-logo-alight@1x.png") no-repeat 0 center !important;
+  }
+  /* line 460, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.cloud-fulfilment {
+    background: url("../images/video-post-logo-cloud-fulfilment@1x.png") no-repeat 0 center !important;
+  }
+  /* line 463, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #family-post-screen .logo.kong {
+    background: url("../images/video-post-logo-kong@1x.png") no-repeat 0 center !important;
+  }
+  .lt-ie9 .city-next-day-box ul li, .lt-ie9 .collection-col ul li {
+      background: url("../images/list-tick-mobile@1x.png") no-repeat 0 0;
+  }
+}
+@media only screen and (min-width: 80em) {
+  /* line 481, iefix.scss */
+  .lt-ie9 header .top-bar .title-area .name a {
+    background-image: url("../images/header-logo-desktop@1x.png");
+  }
+  /* line 492, iefix.scss */
+  .lt-ie9 #video-modal .video-wrapper #video-post-screen .head {
+    background: url("../images/video-post-head@1x.png") no-repeat 0 0 !important;
+  }
+}
+@media only screen and (min-width: 58.75em) {
+  /* line 507, iefix.scss */
+  .lt-ie9 header .top-bar .title-area .name a {
+    background-image: url("../images/header-logo-medium@1x.png");
+  }
+  /* line 519, iefix.scss */
+  .lt-ie9 header .top-bar-section .nav-wrapper ul.main li.home a {
+    background-image: url("../images/header-home-desktop@1x.png");
+  }
+}
+/* Localized */
