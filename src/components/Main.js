@@ -79,7 +79,6 @@ class Main extends Component{
    
   }
   render() {
-      console.log(this.props.parcel, 'props!!!')
       let presentCity = '';
       if(this.props.parcel) {
         presentCity = `Your parcel is now at: ${this.props.parcel.toCity}`
@@ -92,7 +91,7 @@ class Main extends Component{
     <div className="home__intro">
         <div className="container">
             <div className="home__intro-content">
-                <h1>Compare and <strong>book cheap parcel delivery services</strong> with Parcel Monkey</h1>
+                <h1>Compare and <strong>book cheap parcel delivery services</strong> with Cricket Deliveries</h1>
 
                 <p>Wherever in the world you want to send your parcel we compare the best couriers to get you the best
                     services and delivery rates.</p>
@@ -106,7 +105,7 @@ class Main extends Component{
 
                 <div className="get-quote__tabs">
                         <label htmlFor="get-quote-default" className="get-quote__tab">Parcel Delivery</label>
-                        <label htmlFor="get-quote-local" className="get-quote__tab"><span className="prefix">new</span> ParcelMonkey<span className="highlight">Local</span></label>
+                        <label htmlFor="get-quote-local" className="get-quote__tab"><span className="prefix">new</span> Cricketdeliveries<span className="highlight">Local</span></label>
                 </div>
 
                 <div className="get-quote__form get-quote__form-default">
@@ -199,8 +198,8 @@ class Main extends Component{
 
         <div className="home__standout">
             <div className="home__promise">
-                <h3>Why use Parcel Monkey?</h3>
-                <p>Compare, book and send parcels using discounted parcel delivery services. Save time &amp; money with Parcel Monkey.</p>
+                <h3>Why use Cricket Deliveries?</h3>
+                <p>Compare, book and send parcels using discounted parcel delivery services. Save time &amp; money with Cricket Deliveries.</p>
                 <ul>
                     <li>Choose from many reputable courier companies to ship your parcel</li>
                     <li>Book parcel delivery within the UK or to over 240 international destinations</li>
@@ -251,7 +250,7 @@ class Main extends Component{
                 <h2 className="text-center" style={{fontSize: 2.2}}>Save money on parcel delivery</h2>
 
                 <p>Did you know you can save money on parcel delivery by comparing prices from various couriers? There are more ways to book parcel delivery than simply going to the Post Office. You can book a courier delivery service htmlFor a
-                    discounted price through Parcel Monkey to take care of your shipping needs easily and cheaply thanks to our <a href="compare-prices/index.html">parcel comparison</a> engine.</p>
+                    discounted price through Cricket Deliveries to take care of your shipping needs easily and cheaply thanks to our <a href="compare-prices/index.html">parcel comparison</a> engine.</p>
 
                 <p>We have a range of cheap parcel delivery options, including: <a href="delivery-services/next-day-delivery/index.html">next day delivery</a>, <a href="delivery-services/large-heavy-parcels/index.html">delivery of large or heavy parcels</a>, <a href="delivery-services/sameday-delivery/index.html">same day delivery</a>, or <a href="delivery-services/international-shipping/index.html">international parcel delivery</a>. View the links below htmlFor an idea of the delivery services we have on offer to some of our popular international destinations.</p>
 

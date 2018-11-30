@@ -70,7 +70,6 @@ class viewParcel extends Component {
 * @returns { DOM } DOM object
 */
 componentWillReceiveProps(nextProps) {
-  console.log(nextProps, 'hello there')
   this.setState({
     fullName: nextProps.parcel.fullName,
     userName: nextProps.parcel.userName,

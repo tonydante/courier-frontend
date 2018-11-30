@@ -137,10 +137,14 @@ const getAParcelFailed = parcel =>
 export const getAParcel = id => dispatch =>
   axios.get(`${API}/api/v1/admin/parcel/${id}`)
     .then((response) => {
-      console.log(response.data, 'just now')
       dispatch(getAParcelSuccess(response.data));
     })
     .catch((error) => {
+      swal({
+        title: "Oops!",
+        text: `Sorry ${error.response.data.message}`,
+        icon: "error"
+      });
       dispatch(getAParcelFailed(error.response.data.message));
     });
 

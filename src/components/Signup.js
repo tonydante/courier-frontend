@@ -40,7 +40,6 @@ class Signup extends Component {
    */
   onSubmit(event) {
     event.preventDefault();
-    // return console.log(this.props)
     const { errors, isValid } = validateFormInput(this.state);
     if (isValid) {
       this.setState({ isLoading: true });
@@ -49,9 +48,7 @@ class Signup extends Component {
           this.props.history.push('/');
         })
         .catch((err) => {
-        //  console.log(err.response.data)
-         console.log(err)
-        
+         console.log(err);
         });
     } else {
       console.log(errors)

@@ -185,3 +185,10 @@
 .parcel > span {
   color: #e9ff0d;
 }
+.logo-new {
+  color: #5accdf !important;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "VAG Rounded W01 Bold","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+}

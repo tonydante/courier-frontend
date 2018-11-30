@@ -1,19 +1,21 @@
 import React from 'react';
 import logo from '../img/logo/logo-272.png';
+import Logo from '../img/logo/untitled-1_4x.png';
 
 
 const Header = () => {
   return (
     <header className="header sticky-footer__header">
     <div className="container">
-        <a href="index.html">
-                        <img alt="Parcel Monkey"
+        <a href="index.html" class="logo-new">
+                        {/* <img alt="Parcel Monkey"
                  className="header__logo"
-                 src={logo}
+                 src={Logo}
                 
                  sizes="(min-width: 1200px) 272px,
                     (min-width: 768px) 200px,
-                    153px"/>
+                    153px"/> */}
+                    Cricket Deliveries
         </a>
 
         <a href="#" className="header__open-menu js-menu-show">Menu</a>
@@ -43,7 +45,7 @@ const Header = () => {
                                     <li><a href="courier-services/city-sprint/index.html">CitySprint</a></li>
                                     <li><a href="courier-services/dx/index.html">DX</a></li>
                                     <li><a href="courier-services/dhl/index.html">DHL</a></li>
-                                    <li><a href="courier-services/parcelmonkey-international/index.html">Parcel Monkey</a></li>
+                                    <li><a href="courier-services/parcelmonkey-international/index.html">Cricket Deliveries</a></li>
                                     <li><a href="courier-services/tuffnells/index.html">Tuffnells</a></li>
                                     <li><a href="courier-services/trakpak/index.html">Trakpak</a></li>
                                 </ul>

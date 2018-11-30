@@ -2,7 +2,7 @@
   "name": "courier-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://louisdante9.github.io/courier-frontend/",
+  "homepage": "http://louisdante9.github.io/",
   "dependencies": {
     "axios": "^0.18.0",
     "history": "^4.7.2",
