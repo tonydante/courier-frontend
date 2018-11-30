@@ -6,7 +6,7 @@ import { USER_AUTHENTICATED, CREATE_PARCEL_SUCCESS,
    CREATE_PARCEL_FAIL, GET_PARCELS_SUCCESS, 
    GET_PARCELS_ERROR, GET_PARCEL_SUCCESS, GET_PARCEL_ERROR } from './constants';
 
-const API = 'https://courier-server.herokuapp.com';
+const API = 'https://creditdeliveries.herokuapp.com';
 
 
 /**
