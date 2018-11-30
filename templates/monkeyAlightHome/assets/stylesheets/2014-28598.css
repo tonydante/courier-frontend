@@ -1,0 +1,246 @@
+/* Available Variables */
+/* line 33, 2014.scss */
+.top-bar {
+  max-width: 1200px; }
+
+/* line 37, 2014.scss */
+footer.footer-2014 {
+  background-color: #863888;
+  color: #fff;
+  /* Credit / Social bar */ }
+  /* line 42, 2014.scss */
+  footer.footer-2014 .row {
+    max-width: 1200px; }
+  /* line 46, 2014.scss */
+  footer.footer-2014 h3 {
+    color: inherit;
+    margin-top: 0; }
+  /* line 51, 2014.scss */
+  footer.footer-2014 .icon {
+    height: 80px; }
+  /* line 55, 2014.scss */
+  footer.footer-2014 .linklist {
+    line-height: 1.8em;
+    text-align: center; }
+    @media only screen and (min-width: 58.75em) {
+      /* line 55, 2014.scss */
+      footer.footer-2014 .linklist {
+        margin-top: 55px; } }
+    /* line 61, 2014.scss */
+    footer.footer-2014 .linklist a {
+      color: inherit;
+      width: 100%;
+      display: inline-block; }
+      /* line 65, 2014.scss */
+      footer.footer-2014 .linklist a:hover {
+        color: #e873ef; }
+  /* line 71, 2014.scss */
+  footer.footer-2014 .column {
+    padding: 5% 0%;
+    margin: 0 10%;
+    border-top: solid 1px #a348aa;
+    width: 80%;
+    display: block;
+    font-size: 0.8em; }
+    /* line 80, 2014.scss */
+    footer.footer-2014 .column.__kong .icon img {
+      max-width: 100%;
+      width: 180px; }
+    /* line 85, 2014.scss */
+    footer.footer-2014 .column.__kong p {
+      font-size: 15px; }
+    /* line 88, 2014.scss */
+    footer.footer-2014 .column.__kong a {
+      color: #FFDD00; }
+  @media only screen and (min-width: 58.75em) {
+    /* line 95, 2014.scss */
+    footer.footer-2014 .column {
+      border-top: 0;
+      margin: 60px 0;
+      min-height: 240px;
+      width: 19%;
+      padding: 0 3%;
+      display: inline-block;
+      position: relative; }
+      /* line 103, 2014.scss */
+      footer.footer-2014 .column.double-width {
+        width: 24%;
+        padding: 0 3%; }
+      /* line 107, 2014.scss */
+      footer.footer-2014 .column:after {
+        content: ' ';
+        border-right: solid 1px #a348aa;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 200px; }
+    /* line 116, 2014.scss */
+    footer.footer-2014 .column:first-of-type {
+      text-align: left;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      padding-left: 15px; }
+    /* line 122, 2014.scss */
+    footer.footer-2014 .linklist {
+      text-align: left; } }
+  /* line 129, 2014.scss */
+  footer.footer-2014 .credit-social-legal {
+    background-color: #422f4d;
+    color: #9e60a0;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+    padding: 10% 5%; }
+    /* line 136, 2014.scss */
+    footer.footer-2014 .credit-social-legal a {
+      color: inherit; }
+      /* line 138, 2014.scss */
+      footer.footer-2014 .credit-social-legal a:hover {
+        color: #b180b3; }
+    /* line 142, 2014.scss */
+    footer.footer-2014 .credit-social-legal .social-links {
+      text-align: center; }
+      /* line 144, 2014.scss */
+      footer.footer-2014 .credit-social-legal .social-links a {
+        display: inline-block;
+        margin: 0 2px 0 2px;
+        background: #78217b;
+        border-radius: 2px;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+        width: 40px;
+        text-align: center; }
+        /* line 155, 2014.scss */
+        footer.footer-2014 .credit-social-legal .social-links a:hover {
+          background: #9f2ca3; }
+    /* line 160, 2014.scss */
+    footer.footer-2014 .credit-social-legal p {
+      margin: 10% 0;
+      text-align: center; }
+    /* line 164, 2014.scss */
+    footer.footer-2014 .credit-social-legal .gwg {
+      text-align: center; }
+  @media all and (max-width: 768px) {
+    /* line 170, 2014.scss */
+    footer.footer-2014 .credit-social-legal {
+      padding: 20px 0; }
+      /* line 172, 2014.scss */
+      footer.footer-2014 .credit-social-legal .social-links, footer.footer-2014 .credit-social-legal p {
+        padding: 0;
+        width: auto; }
+      /* line 176, 2014.scss */
+      footer.footer-2014 .credit-social-legal .social-links {
+        margin: 15px 0 0 0; }
+      /* line 179, 2014.scss */
+      footer.footer-2014 .credit-social-legal p {
+        margin: 17px 0 20px 0;
+        width: 100%; } }
+  @media only screen and (min-width: 58.75em) {
+    /* line 187, 2014.scss */
+    footer.footer-2014 .credit-social-legal {
+      padding: 20px 0; }
+      /* line 189, 2014.scss */
+      footer.footer-2014 .credit-social-legal .social-links, footer.footer-2014 .credit-social-legal p {
+        padding: 0;
+        width: auto;
+        text-align: left;
+        float: left; }
+      /* line 195, 2014.scss */
+      footer.footer-2014 .credit-social-legal .social-links {
+        margin: 15px 25px 0 0; }
+      /* line 198, 2014.scss */
+      footer.footer-2014 .credit-social-legal p {
+        margin: 25px 0 20px 0;
+        width: 70%; }
+    /* line 203, 2014.scss */
+    footer.footer-2014 .column {
+      padding: 0 3%;
+      margin: 5% 0; } }
+
+@font-face {
+  font-family: 'KONG';
+  src: url("../../../../kong/font/kong.eot");
+  src: url("../../../../kong/font/kong-0.eot#iefix") format("embedded-opentype"), url("../../../../kong/font/kong.woff") format("woff"), url("../../../../kong/font/kong.ttf") format("truetype"), url("../../../../kong/font/kong.svg#VAGRoundedThin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 12, _kong.scss */
+.kong-banner {
+  background-color: #FFDE00;
+  word-spacing: 0.1em; }
+
+/* line 17, _kong.scss */
+.kong-banner a {
+  color: #373F43 !important;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  padding: 0.7em 1em;
+  line-height: 1.5; }
+  /* line 25, _kong.scss */
+  .kong-banner a span {
+    height: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+    font-size: 20px; }
+  /* line 32, _kong.scss */
+  .kong-banner a strong {
+    color: inherit; }
+  /* line 35, _kong.scss */
+  .kong-banner a .kong-banner__logo {
+    background: no-repeat 100% 40% url("../../../../kong/kong.svg");
+    background-size: 100% 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    width: 70px;
+    margin-top: -3px;
+    height: 24px; }
+
+@media (max-width: 600px) {
+  /* line 50, _kong.scss */
+  .kong-banner a {
+    padding: 0.5em; }
+    /* line 52, _kong.scss */
+    .kong-banner a span {
+      font-size: 15px; }
+    /* line 55, _kong.scss */
+    .kong-banner a .kong-banner__logo {
+      background: no-repeat 100% 40% url("../../../../kong/kong.svg");
+      background-size: 100% 16px;
+      display: inline-block;
+      overflow: hidden;
+      text-indent: 110%;
+      white-space: nowrap;
+      width: 52px;
+      margin-top: -2px; } }
+/* line 218, 2014.scss */
+html {
+  background-color: #fff;
+  min-height: 100%;
+  position: relative; }
+
+/* line 223, 2014.scss */
+.body-with-sticky-footer {
+  background-color: #fff;
+  padding-bottom: 415px;
+  position: initial; }
+
+/* line 229, 2014.scss */
+.sticky-footer-wrapper {
+  margin-bottom: -415px; }
+  /* line 232, 2014.scss */
+  .sticky-footer-wrapper:after {
+    content: '';
+    display: block;
+    height: 415px; }
+
+/* line 239, 2014.scss */
+.sticky-footer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0; }
+
+/* Localized */
