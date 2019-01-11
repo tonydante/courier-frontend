@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import { Link, withRouter } from 'react-router-dom';
 import {connect} from 'react-redux';
-import { getAParcel, logout } from '../actions';
+import { getAParcel, logout,updateAParcel  } from '../actions';
 
 
 class viewParcel extends Component {
@@ -25,6 +25,7 @@ class viewParcel extends Component {
       toCity: '',
     }
     this.onChange = this.onChange.bind(this)
+    this.onSubmit = this.onSubmit.bind(this)
     this.logout = this.logout.bind(this)
   }
 
@@ -60,6 +61,10 @@ class viewParcel extends Component {
    
    onSubmit(event) {
      event.preventDefault();
+     const oldTracking = this.props.parcel.trackingNo;
+     this.props.updateAParcel(oldTracking, this.state.trackingNo).then(()=> {
+      this.props.history.push('/dashboard')
+    })
    }
 
 /**
@@ -72,7 +77,7 @@ class viewParcel extends Component {
   logout(event) {
     event.preventDefault();
     this.props.logout();
-    this.props.history.push('/signin');
+    this.props.history.push('/signin')
   }
 
  /**
@@ -104,6 +109,7 @@ componentWillReceiveProps(nextProps) {
 }
 
   render() {
+    console.log(this.props.history)
     return (
       <React.Fragment>
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
@@ -374,8 +380,8 @@ componentWillReceiveProps(nextProps) {
     />    
     </div>
   </div>
-  <button type="submit" className="btn btn-primary cta" onClick={this.onSubmit}>Update tracking No</button>
 
+  <button type="submit" className="btn btn-primary cta" onClick={this.onSubmit}>Update tracking No</button>
 </form>      
         </main>
       </div>
@@ -385,7 +391,7 @@ componentWillReceiveProps(nextProps) {
   }
 }
 const mapStateToProps = state => ({
-  parcel: state.parcel.parcel
+  parcel: state.parcel.parcel,
 });
 
-export default connect(mapStateToProps, {getAParcel, logout})(withRouter(viewParcel))
+export default connect(mapStateToProps, {getAParcel, logout, updateAParcel})(withRouter(viewParcel))

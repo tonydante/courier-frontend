@@ -4,7 +4,8 @@ import swal from 'sweetalert';
 import setAuthToken from '../utils/setAuthToken';
 import { USER_AUTHENTICATED, CREATE_PARCEL_SUCCESS,
    CREATE_PARCEL_FAIL, GET_PARCELS_SUCCESS, 
-   GET_PARCELS_ERROR, GET_PARCEL_SUCCESS, GET_PARCEL_ERROR } from './constants';
+   GET_PARCELS_ERROR, GET_PARCEL_SUCCESS, GET_PARCEL_ERROR,
+   UPDATE_PARCEL_SUCCESS, UPDATE_PARCEL_ERROR} from './constants';
 
 const API = 'https://creditdeliveries.herokuapp.com';
 // const API = 'localhost:3002';
@@ -99,7 +100,6 @@ const getParcelsFailed = parcels =>
 export const getAllParcels = () =>
   dispatch => axios.get(`${API}/api/v1/admin/parcel`)
     .then((response) => {
-      console.log(response.data)
       dispatch(getParcelsSuccess(response.data));
     })
     .catch((err) => {
@@ -139,7 +139,6 @@ const getAParcelFailed = parcel =>
 export const getAParcel = id => dispatch =>
   axios.get(`${API}/api/v1/admin/parcel/${id}`)
     .then((response) => {
-      console.log(response.data)
       dispatch(getAParcelSuccess(response.data));
     })
     .catch((error) => {
@@ -150,6 +149,38 @@ export const getAParcel = id => dispatch =>
       });
       dispatch(getAParcelFailed(error.response.data.message));
     });
+
+    const updateAParcelSuccess = parcel =>
+    ({ type: UPDATE_PARCEL_SUCCESS, parcel });
+  
+  const updateAParcelFailed = parcel =>
+    ({ type: UPDATE_PARCEL_ERROR, parcel });
+  
+  /**
+     * @function getABill
+     *
+     * @param { number } Id
+     *
+     * @returns {object} dispatches an action
+     *
+     * @description It gets a single bill by Id
+     */
+  export function updateAParcel (id, trackingNo) { 
+    return dispatch =>
+    axios.post(`${API}/api/v1/admin/parcel/${id}`, {trackingNo})
+      .then((response) => {
+        dispatch(updateAParcelSuccess(response.data));
+      })
+      .catch((error) => {
+        console.log(error)
+        swal({
+          title: "Oops!",
+          text: `Sorry ${error.response.data.message}`,
+          icon: "error"
+        });
+        dispatch(updateAParcelFailed(error.response.data.message));
+      });
+    }
 
 /**
  * 

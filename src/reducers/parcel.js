@@ -9,7 +9,12 @@ const parcel = (state = {}, action) => {
       };
     case types.GET_PARCEL_ERROR:
       return {};
-
+    case types.UPDATE_PARCEL_SUCCESS:
+      return {
+        ...state, ...action.updated
+      };
+    case types.UPDATE_PARCEL_ERROR:
+      return {};
     default:
       return state;
   }
