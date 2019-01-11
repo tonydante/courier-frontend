@@ -7,6 +7,8 @@ import { USER_AUTHENTICATED, CREATE_PARCEL_SUCCESS,
    GET_PARCELS_ERROR, GET_PARCEL_SUCCESS, GET_PARCEL_ERROR } from './constants';
 
 const API = 'https://creditdeliveries.herokuapp.com';
+// const API = 'localhost:3002';
+
 
 
 /**
@@ -137,6 +139,7 @@ const getAParcelFailed = parcel =>
 export const getAParcel = id => dispatch =>
   axios.get(`${API}/api/v1/admin/parcel/${id}`)
     .then((response) => {
+      console.log(response.data)
       dispatch(getAParcelSuccess(response.data));
     })
     .catch((error) => {

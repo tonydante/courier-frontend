@@ -53,6 +53,18 @@ class viewParcel extends Component {
 /**
    * @param { Object } event
    *
+   * @memberof Profile
+   *
+   * @returns { undefined }
+   */
+   
+   onSubmit(event) {
+     event.preventDefault();
+   }
+
+/**
+   * @param { Object } event
+   *
    * @memberof Dashboard
    *
    * @returns { undefined }
@@ -73,7 +85,7 @@ componentWillReceiveProps(nextProps) {
   this.setState({
     fullName: nextProps.parcel.fullName,
     userName: nextProps.parcel.userName,
-    email: nextProps.parcel.email,
+    email: nextProps.parcel.clientEmail,
     clientName: nextProps.parcel.clientName,
     clientPhone: nextProps.parcel.clientPhone,
     clientEmail: nextProps.parcel.clientEmail,
@@ -174,7 +186,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Client's Name" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
     <div className="form-group col-md-4">
@@ -187,7 +199,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Client's Phone" 
       onChange={this.onChange}
-      required
+      disabled
     />      
     </div>
   <div className="form-group col-md-4">
@@ -197,11 +209,11 @@ componentWillReceiveProps(nextProps) {
       pattern=".+@globex.com"
       name="clientEmail"
       id="clientEmail" 
+      disabled
       value={this.state.clientEmail}
       className="form-control" 
       placeholder="Client's Email" 
       onChange={this.onChange}
-      required
     /> 
     </div>
   </div>
@@ -216,7 +228,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Receiver's Name" 
       onChange={this.onChange}
-      required
+      disabled  
     />
   </div>
     <div className="form-group col-md-4">
@@ -229,7 +241,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Receiver's Phone No" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
     <div className="form-group col-md-4">
@@ -242,7 +254,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Receiver's Address" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
   </div>
@@ -270,7 +282,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Type" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
     <div className="form-group col-md-3">
@@ -283,7 +295,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Weight" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
     <div className="form-group col-md-3">
@@ -296,7 +308,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Total Frieght" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
   </div>
@@ -314,7 +326,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Booking Date" 
       onChange={this.onChange}
-      required
+      disabled
     />
   </div>
     <div className="form-group col-md-6">
@@ -329,7 +341,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Scheduled Date" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
   </div>
@@ -345,7 +357,7 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Sender's City" 
       onChange={this.onChange}
-      required
+      disabled
     />
   </div>
     <div className="form-group col-md-6">
@@ -358,10 +370,12 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Delivery City" 
       onChange={this.onChange}
-      required
+      disabled
     />    
     </div>
   </div>
+  <button type="submit" className="btn btn-primary cta" onClick={this.onSubmit}>Update tracking No</button>
+
 </form>      
         </main>
       </div>

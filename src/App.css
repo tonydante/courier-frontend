@@ -192,3 +192,16 @@
   font-weight: 500;
   font-family: "VAG Rounded W01 Bold","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
 }
+.cta {
+  background-color: transparent;
+  color: #384548;
+  border-radius: 37px;
+  padding: 15px;
+  font-size: 15px;
+  border-color: #384548;
+}
+.cta:hover {
+  background-color: #384548;
+  border-color: #384548;
+  color: #fff;
+}

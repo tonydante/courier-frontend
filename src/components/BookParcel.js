@@ -132,7 +132,7 @@ class BookParcel extends Component {
               </li>
             </ul>
 
-            <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            {/* <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
               <span>Saved reports</span>
               <a className="d-flex align-items-center text-muted" href="#">
                 <span data-feather="plus-circle"></span>
@@ -163,7 +163,7 @@ class BookParcel extends Component {
                   Year-end sale
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </nav>
 
