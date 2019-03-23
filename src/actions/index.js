@@ -165,9 +165,9 @@ export const getAParcel = id => dispatch =>
      *
      * @description It gets a single bill by Id
      */
-  export function updateAParcel (id, trackingNo) { 
+  export function updateAParcel (id, obj) { 
     return dispatch =>
-    axios.post(`${API}/api/v1/admin/parcel/${id}`, {trackingNo})
+    axios.post(`${API}/api/v1/admin/parcel/${id}`, obj)
       .then((response) => {
         dispatch(updateAParcelSuccess(response.data));
       })

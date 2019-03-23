@@ -62,7 +62,7 @@ class viewParcel extends Component {
    onSubmit(event) {
      event.preventDefault();
      const oldTracking = this.props.parcel.trackingNo;
-     this.props.updateAParcel(oldTracking, this.state.trackingNo).then(()=> {
+     this.props.updateAParcel(oldTracking, this.state).then(()=> {
       this.props.history.push('/dashboard')
     })
    }
@@ -109,7 +109,6 @@ componentWillReceiveProps(nextProps) {
 }
 
   render() {
-    console.log(this.props.history)
     return (
       <React.Fragment>
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
@@ -260,7 +259,6 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Receiver's Address" 
       onChange={this.onChange}
-      disabled
     />    
     </div>
   </div>
@@ -347,7 +345,6 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Scheduled Date" 
       onChange={this.onChange}
-      disabled
     />    
     </div>
   </div>
@@ -363,7 +360,6 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Sender's City" 
       onChange={this.onChange}
-      disabled
     />
   </div>
     <div className="form-group col-md-6">
@@ -376,7 +372,6 @@ componentWillReceiveProps(nextProps) {
       className="form-control" 
       placeholder="Delivery City" 
       onChange={this.onChange}
-      disabled
     />    
     </div>
   </div>

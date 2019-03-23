@@ -19,22 +19,6 @@ class App extends Component {
     return (
         <Router history={hashHistory}>
         <div className="app">
-          {/* <PrivateRoute
-            exact
-            path="/"
-            component={Home}
-            
-          />
-            <PrivateRoute
-            exact
-            path="/purpose/:id"
-            component={Purpose}
-          />
-            <PrivateRoute
-            exact
-            path="/emailSent"
-            component={EmailSent}
-          /> */}
           <PrivateRoute exact path="/parcel/:id" component={ViewParcel} />
           <PrivateRoute exact path="/parcel" component={BookParcel} />
           <PrivateRoute exact path="/dashboard" component={Dashboard} />
